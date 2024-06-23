@@ -12,5 +12,6 @@ public class Member {
     @Id @Column(name = "member_id")
     private String id;
 
+    @Column(nullable = false)
     private String password;
 }
